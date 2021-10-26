@@ -11,6 +11,7 @@ user3 = User("kiki","kiki@gmail.com","kiki123")
 user4 = User("mjomba","mjomba@gmail.com","mjomba123")
 print(user3.userEmail)
 user4.logout()
+user1.logout()
 
 class Admin(User):
     def suspend(self):
